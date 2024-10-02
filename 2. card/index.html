@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../global.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Card</title>
-</head>
-<body>
-
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../global.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Card</title>
+    </head>
+    <body>
+        <section class="card"> <!--BEM-->
+             <!--"card" = Blok-->
+            <figure class="card__image-body"> <!--"card__image" = Element--><!--"...image-body" = Modify-->
+                <img class="card__image" src="" alt="">
+            </figure>
+            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sapiente, consequatur aliquam libero ut blanditiis aut exercitationem ipsa? Sequi itaque nemo cumque laboriosam qui quam est quibusdam vitae, corporis natus.</p>
+            <section class="card__btn-row">
+                <button class="card__btn--warning">
+                    <span class="btn__icon">&#127881;</span>
+                    Button
+                </button>
+                <button class="card__btn--success">
+                    <span class="btn__icon">&#127881;</span>
+                    Button
+                </button>
+            </section>
+        </section>
+    </body>
 </html>

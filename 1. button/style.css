@@ -1,0 +1,41 @@
+*,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(26, 19, 43, 0.925);
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    border-style: none;
+    color: white;
+}
+
+.btn__icon {
+    margin-right: 7px;
+}
+
+ /*Fårgerna används från global.css*/
+.btn--default {
+    background-color: var(--default-color);
+}
+.btn--success {
+    background-color: var(--success-color);
+}
+.btn--error {
+    background-color: var(--error-color);
+}
+.btn--warning {
+    background-color: var(--warning-color);
+    color: black;
+}
+
+img {
+    padding-right: .3rem;
+    width: 32px;
+}
